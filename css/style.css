@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=PT+Sans+Narrow&family=Roboto+Slab:wght@500&family=Vollkorn:ital@1&display=swap');
+*{   
+    font-family: 'Roboto Slab', serif;
+}
+.bannerBgImage {
+    height: 90vh;
+    background-color: antiquewhite;
+    background: url("/images/Image1.jpg");
+    background-size:cover;
+    position: relative;
+}
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
+}
+.bannerTitle {
+    font-size: 1rem;
+}
+.bannerDesc {
+    font-size: 2rem;
+}
+.card {
+    cursor: pointer;
+}
+.card:hover{
+    background-color:rgb(222, 184, 135);
+    border: 5px solid black;
+}
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.img-fluid:hover{
+    border: 5px solid black;
+}
+.card-img-top {
+    height: 40vh;
+}
+.card-img-bottom {
+    height: 75vh;   
+}
